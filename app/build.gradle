@@ -25,4 +25,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    //仿知乎的图片选择框架
+    implementation 'com.zhihu.android:matisse:0.5.3-beta3'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha01'
+    //万能适配器的使用
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.1'
+    //图片加载框架
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
 }
