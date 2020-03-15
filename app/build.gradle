@@ -30,6 +30,11 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha01'
     //万能适配器的使用
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.1'
-    //图片加载框架
+    //图片加载框架1
     implementation 'com.github.bumptech.glide:glide:4.11.0'
+    //图片加载框架2(包含了可裁剪的图片)
+    implementation 'com.lzy.widget:imagepicker:0.6.1'  //指定版本
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //图片选择框架
+    //implementation 'com.winfo.photoselector:PhotoSelector:1.2.1'
 }

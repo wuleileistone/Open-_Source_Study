@@ -6,3 +6,5 @@
      com.github.bumptech.glide:glide:4.11.0
      万能适配器采用：
      com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.1
+     图片选择框架：implementation 'com.winfo.photoselector:PhotoSelector:1.2.1'
+     这三个框架完成测试，其中第三个最简单
