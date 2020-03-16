@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activity.MainActivity">
+    android:gravity="center"
+    tools:context=".activity.QrScanActivity">
 
     <Button
-        android:id="@+id/bt_image_view"
+        android:id="@+id/bt_scan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="请选择图片"/>
+        android:text="点击扫描二维码"/>
 
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
+    <Button
+        android:id="@+id/bt_b_scan"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="点击生成二维码"/>
 
 </LinearLayout>
