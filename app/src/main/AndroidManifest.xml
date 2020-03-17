@@ -18,8 +18,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activity.QrScanTestActivity"></activity>
-<!--        <activity android:name=".activity.QrScanActivity" />-->
+        <activity android:name=".activity.WheelPickerActivity"></activity>
+        <activity android:name=".activity.QrScanTestActivity" /> <!-- <activity android:name=".activity.QrScanActivity" /> -->
         <!-- <activity android:name=".activity.BottomSheetDialogActivity"></activity> -->
         <activity
             android:name=".activity.QrScanActivity"
