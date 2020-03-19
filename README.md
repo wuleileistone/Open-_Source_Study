@@ -16,5 +16,16 @@ cn.bingoogolapple:bga-qrcode-zxing:1.3.7
 implementation('com.github.gzu-liyujiang.AndroidPicker:WheelPicker:1.5.6.20181018') {
         exclude group: 'com.android.support'}
 ##  再也不用写选择器的TextView的替代品
- implementation 'com.github.niniloveyou:StateButton:v1.0.0'        //当前看到58
-
+ implementation 'com.github.niniloveyou:StateButton:v1.0.0'
+ ##  RxTool的工具类，非常的齐全，没事看看，以后备用
+ //基础工具库
+   implementation 'com.github.tamsiree.RxTool:RxKit:2.5.3'
+   //UI库
+   implementation 'com.github.tamsiree.RxTool:RxUI:2.5.3'
+   //相机库
+   implementation 'com.github.tamsiree.RxTool:RxCamera:v2.5.3'
+##  圆形图片库的使用
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    [圆形头像](https://github.com/hdodenhof/CircleImageView)
+##  流式布局鸿神的库(不再维护了)
+     compile 'com.hyman:flowlayout-lib:1.1.2'

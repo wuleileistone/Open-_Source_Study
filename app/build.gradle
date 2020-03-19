@@ -50,4 +50,8 @@ dependencies {
     implementation 'com.blankj:utilcodex:1.26.0'
     //使用这个库就不用再写该死的选择器了
     implementation 'com.github.niniloveyou:StateButton:v1.0.0'
+    ////基础工具库
+    implementation 'com.github.tamsiree.RxTool:RxKit:2.5.3'
+
+
 }
