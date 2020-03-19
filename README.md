@@ -27,7 +27,7 @@ implementation('com.github.gzu-liyujiang.AndroidPicker:WheelPicker:1.5.6.2018101
 ##  圆形图片库的使用
     implementation 'de.hdodenhof:circleimageview:3.1.0'
      [圆形头像]:https://github.com/hdodenhof/CircleImageView
-     1.[圆形头像](http://www.google.com)<br />
+     1.[圆形头像](http://www.google.com)<br/>
 ##  流式布局鸿神的库(不再维护了)
      compile 'com.hyman:flowlayout-lib:1.1.2'
-     1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />
+     1.[点击这里你可以链接到www.google.com](http://www.google.com)<br/>
